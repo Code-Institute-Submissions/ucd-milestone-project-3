@@ -86,17 +86,28 @@ header {
     background-color: #f44141;
 }
 
+.bg-color-news {
+    background-color: #f44141;
+}
+
+.bg-color-contact {
+    background-color: #f44141;
+}
+
+.bg-color-gallery {
+    background-color: #f44141;
+}
+
+.bg-color-media {
+    background-color: #f44141;
+}
 
 .uppercase {
     text-transform: uppercase;
 
 }
 
-.section-column {
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
-}
+
 
 /*--------------------------------------------Footer*/
 
@@ -146,6 +157,17 @@ footer p {
 
 }
 
+section p {
+    font-family: "Spicy Rice", sans-serif;
+    color: #f4e842;
+    text-align: center;
+
+}
+
+.article {
+    text-align: left;
+}
+
 
 
 
@@ -163,14 +185,103 @@ footer p {
 
 
 
-.col-md-8 {
-    padding-right: 30px;
-}
+
 
 #nav li {
     padding: 0;
 }
 
-section {
+
+.contact-heading {
+    font-family: "Spicy Rice", sans-serif;
+    color: #f4e842;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+
 }
 
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.contact-us {
+    color: #f4e842;
+}
+
+section h5 {
+    color: #f4e842;
+}
+
+section h1 {
+    text-align: center;
+    font-family: "Spicy Rice", sans-serif;
+    margin-top: 10px;
+    color: #f4e842;
+}
+
+/*-----------------------------------------------Gallery*/
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 0 auto;
+  max-width: 70%;
+  }
+
+.gallery-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.gallery-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .gallery-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+section iframe {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #f4e842;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.section-column {
+    min-height: 320px;
+}
+
+.section-article {
+    min-height: 320px;
+}
